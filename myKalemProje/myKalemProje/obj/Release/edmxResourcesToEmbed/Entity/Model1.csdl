@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="myKalemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TBLMAKALE">
+    <Key>
+      <PropertyRef Name="MAKALEID" />
+    </Key>
+    <Property Name="MAKALEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MAKALEBASLIK" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MAKALEICERIK" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="MAKALETARIH" Type="DateTime" Precision="0" />
+    <Property Name="MAKALEYAZAR" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="MAKALETUR" Type="Byte" />
+    <Property Name="MAKALEKATEGORI" Type="Byte" />
+    <NavigationProperty Name="TBLKATEGORI" Relationship="Self.FK_TBLMAKALE_TBLKATEGORI" FromRole="TBLMAKALE" ToRole="TBLKATEGORI" />
+    <NavigationProperty Name="TBLTUR" Relationship="Self.FK_TBLMAKALE_TBLTUR" FromRole="TBLMAKALE" ToRole="TBLTUR" />
+    <NavigationProperty Name="TBLYORUM" Relationship="Self.FK_TBLYORUM_TBLMAKALE" FromRole="TBLMAKALE" ToRole="TBLYORUM" />
+  </EntityType>
+  <EntityType Name="TBLHAKKIMIZDA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ACIKLAMA" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLILETISIM">
+    <Key>
+      <PropertyRef Name="MESAJID" />
+    </Key>
+    <Property Name="MESAJID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ADSOYAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFON" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KONU" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MESAJ" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLKATEGORI">
+    <Key>
+      <PropertyRef Name="KATEGORIID" />
+    </Key>
+    <Property Name="KATEGORIID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KATEGORIAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBLMAKALE" Relationship="Self.FK_TBLMAKALE_TBLKATEGORI" FromRole="TBLKATEGORI" ToRole="TBLMAKALE" />
+  </EntityType>
+  <EntityType Name="TBLTUR">
+    <Key>
+      <PropertyRef Name="TURID" />
+    </Key>
+    <Property Name="TURID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TURAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBLMAKALE" Relationship="Self.FK_TBLMAKALE_TBLTUR" FromRole="TBLTUR" ToRole="TBLMAKALE" />
+  </EntityType>
+  <EntityType Name="TBLYORUM">
+    <Key>
+      <PropertyRef Name="YORUMID" />
+    </Key>
+    <Property Name="YORUMID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULLANICIAD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="YORUMICERIK" Type="String" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Name="YORUMMAKALE" Type="Int32" />
+    <NavigationProperty Name="TBLMAKALE" Relationship="Self.FK_TBLYORUM_TBLMAKALE" FromRole="TBLYORUM" ToRole="TBLMAKALE" />
+  </EntityType>
+  <Association Name="FK_TBLMAKALE_TBLKATEGORI">
+    <End Role="TBLKATEGORI" Type="Self.TBLKATEGORI" Multiplicity="0..1" />
+    <End Role="TBLMAKALE" Type="Self.TBLMAKALE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLKATEGORI">
+        <PropertyRef Name="KATEGORIID" />
+      </Principal>
+      <Dependent Role="TBLMAKALE">
+        <PropertyRef Name="MAKALEKATEGORI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLMAKALE_TBLTUR">
+    <End Role="TBLTUR" Type="Self.TBLTUR" Multiplicity="0..1" />
+    <End Role="TBLMAKALE" Type="Self.TBLMAKALE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLTUR">
+        <PropertyRef Name="TURID" />
+      </Principal>
+      <Dependent Role="TBLMAKALE">
+        <PropertyRef Name="MAKALETUR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLYORUM_TBLMAKALE">
+    <End Role="TBLMAKALE" Type="Self.TBLMAKALE" Multiplicity="0..1" />
+    <End Role="TBLYORUM" Type="Self.TBLYORUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLMAKALE">
+        <PropertyRef Name="MAKALEID" />
+      </Principal>
+      <Dependent Role="TBLYORUM">
+        <PropertyRef Name="YORUMMAKALE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="myKalemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBLMAKALE" EntityType="Self.TBLMAKALE" />
+    <EntitySet Name="TBLHAKKIMIZDA" EntityType="Self.TBLHAKKIMIZDA" />
+    <EntitySet Name="TBLILETISIM" EntityType="Self.TBLILETISIM" />
+    <EntitySet Name="TBLKATEGORI" EntityType="Self.TBLKATEGORI" />
+    <EntitySet Name="TBLTUR" EntityType="Self.TBLTUR" />
+    <EntitySet Name="TBLYORUM" EntityType="Self.TBLYORUM" />
+    <AssociationSet Name="FK_TBLMAKALE_TBLKATEGORI" Association="Self.FK_TBLMAKALE_TBLKATEGORI">
+      <End Role="TBLKATEGORI" EntitySet="TBLKATEGORI" />
+      <End Role="TBLMAKALE" EntitySet="TBLMAKALE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLMAKALE_TBLTUR" Association="Self.FK_TBLMAKALE_TBLTUR">
+      <End Role="TBLTUR" EntitySet="TBLTUR" />
+      <End Role="TBLMAKALE" EntitySet="TBLMAKALE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLYORUM_TBLMAKALE" Association="Self.FK_TBLYORUM_TBLMAKALE">
+      <End Role="TBLMAKALE" EntitySet="TBLMAKALE" />
+      <End Role="TBLYORUM" EntitySet="TBLYORUM" />
+    </AssociationSet>
+    <EntitySet Name="TBLADMIN" EntityType="myKalemModel.TBLADMIN" />
+  </EntityContainer>
+  <EntityType Name="TBLADMIN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KULLANICI" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SIFRE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,2 @@
+C:\Users\kubil\OneDrive\Masaüstü\myKalemProje\myKalemProje\obj\Debug\myKalemProje.csproj.AssemblyReference.cache
+C:\Users\kubil\OneDrive\Masaüstü\myKalemProje\myKalemProje\obj\Debug\DiziYorumProje.dll.licenses

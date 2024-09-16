@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|c:\\users\\kubil\\onedrive\\masa\u00FCst\u00FC\\mykalemproje\\mykalemproje\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\hakkimda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\hakkimda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\kullanici.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\kullanici.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\kategoridetay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\kategoridetay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\kategoridetay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\kategoridetay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\makaledetay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\makaledetay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\adminsayfalar\\yeniblog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\adminsayfalar\\yeniblog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\mykalemproje\\adminsayfalar\\yeniblog.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8384DA4D-E66D-49BF-84C6-ADE5D94E98DD}|myKalemProje\\myKalemProje.csproj|solutionrelative:mykalemproje\\adminsayfalar\\yeniblog.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hakkimda.aspx",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Hakkimda.aspx",
+              "RelativeDocumentMoniker": "myKalemProje\\Hakkimda.aspx",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Hakkimda.aspx",
+              "RelativeToolTip": "myKalemProje\\Hakkimda.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:56:13.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Web.config",
+              "RelativeDocumentMoniker": "myKalemProje\\Web.config",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Web.config",
+              "RelativeToolTip": "myKalemProje\\Web.config",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-06T00:53:05.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Admin.Master",
+              "RelativeDocumentMoniker": "myKalemProje\\Admin.Master",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Admin.Master",
+              "RelativeToolTip": "myKalemProje\\Admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:51:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Kullanici.Master",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Kullanici.Master",
+              "RelativeDocumentMoniker": "myKalemProje\\Kullanici.Master",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Kullanici.Master",
+              "RelativeToolTip": "myKalemProje\\Kullanici.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:50:33.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KategoriDetay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\KategoriDetay.aspx.cs",
+              "RelativeDocumentMoniker": "myKalemProje\\KategoriDetay.aspx.cs",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\KategoriDetay.aspx.cs",
+              "RelativeToolTip": "myKalemProje\\KategoriDetay.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T00:47:45.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KategoriDetay.aspx",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\KategoriDetay.aspx",
+              "RelativeDocumentMoniker": "myKalemProje\\KategoriDetay.aspx",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\KategoriDetay.aspx",
+              "RelativeToolTip": "myKalemProje\\KategoriDetay.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:47:26.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MakaleDetay.aspx",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\MakaleDetay.aspx",
+              "RelativeDocumentMoniker": "myKalemProje\\MakaleDetay.aspx",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\MakaleDetay.aspx",
+              "RelativeToolTip": "myKalemProje\\MakaleDetay.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:45:33.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "myKalemProje\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Default.aspx.cs",
+              "RelativeToolTip": "myKalemProje\\Default.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T00:40:37.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "YeniBlog.aspx",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\AdminSayfalar\\YeniBlog.aspx",
+              "RelativeDocumentMoniker": "myKalemProje\\AdminSayfalar\\YeniBlog.aspx",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\AdminSayfalar\\YeniBlog.aspx",
+              "RelativeToolTip": "myKalemProje\\AdminSayfalar\\YeniBlog.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:30:53.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "myKalemProje\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Login.aspx.cs",
+              "RelativeToolTip": "myKalemProje\\Login.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T00:27:40.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Login.aspx",
+              "RelativeDocumentMoniker": "myKalemProje\\Login.aspx",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Login.aspx",
+              "RelativeToolTip": "myKalemProje\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:27:13.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Default.aspx",
+              "RelativeDocumentMoniker": "myKalemProje\\Default.aspx",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\Default.aspx",
+              "RelativeToolTip": "myKalemProje\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-06T00:20:49.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "YeniBlog.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\AdminSayfalar\\YeniBlog.aspx.cs",
+              "RelativeDocumentMoniker": "myKalemProje\\AdminSayfalar\\YeniBlog.aspx.cs",
+              "ToolTip": "C:\\Users\\kubil\\OneDrive\\Masa\u00FCst\u00FC\\myKalemProje\\myKalemProje\\AdminSayfalar\\YeniBlog.aspx.cs",
+              "RelativeToolTip": "myKalemProje\\AdminSayfalar\\YeniBlog.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T00:31:00.434Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
